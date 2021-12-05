@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Mulish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500,600,700&display=swap");
+@font-face {
+  font-family: 'nexa-trialheavy';
+  src: url("resources/font/Nexa-Trial-Heavy.woff2") format("woff2"), url("resources/font/Nexa-Trial-Heavy.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nexa-trialheavy';
+  src: url("resources/font/Nexa-Trial-Regular.woff2") format("woff2"), url("resources/font/Nexa-Trial-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #2D2924;
+  font-family: "nexa-trialheavy", sans-serif;
+}
+
+.btn {
+  font-family: "nexa-trialheavy";
+  display: inline-block;
+  text-decoration: none;
+  background-color: black;
+  padding: 18px 46px;
+  color: white;
+  border-radius: 14px;
+}
+
+.row {
+  padding-top: 30px;
+  width: 1080px;
+  margin: auto;
+}
+
+header {
+  height: 100vh;
+}
+
+header .row {
+  height: 95%;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .nav-menu a {
+  padding-left: 50px;
+  text-decoration: none;
+  color: #2C2C2C;
+}
+
+header nav a:first-child {
+  padding: 0px;
+}
+
+header nav .nav-menu .active {
+  color: #2D2924;
+  font-weight: 700;
+}
+
+header main {
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header main .left-section {
+  width: 50%;
+}
+
+header main .left-section h1 {
+  padding-bottom: 32px;
+  font-family: "nexa-trialheavy";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 94px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+header main .left-section h1 span {
+  color: #E0BF8D;
+}
+
+header main .left-section .fa-arrow-down {
+  color: #E0BF8D;
+  font-size: 18px;
+  margin-left: 40px;
+  padding: 18px;
+  border: 2px solid #E0BF8D;
+  border-radius: 100%;
+}
+
+header main .right-section img {
+  margin-right: -50px;
+}
+
+.services-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.services-section .service {
+  width: 33.33%;
+  background-color: green;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 640px;
+}
+
+.services-section .service h1 {
+  padding-top: 52px;
+  color: #2D2924;
+  text-align: center;
+}
+
+.services-section .one {
+  background-image: url("resources/sec1.png");
+}
+
+.services-section .two {
+  background-image: url("resources/sec2.png");
+}
+
+.services-section .three {
+  background-image: url("resources/sec3.png");
+}
+
+.our-words {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 200px 0px;
+}
+
+.our-words .left {
+  width: 44%;
+}
+
+.our-words .left h1 {
+  font-family: "nexa-trialheavy";
+  padding-bottom: 20px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 69px;
+}
+
+.our-words .left p {
+  font-family: "nexa-trialheavy";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+  opacity: 0.7;
+}
+
+.our-words .right {
+  width: 54%;
+  background-image: url("resources/grp-of-circle.png");
+  background-size: 100%;
+  overflow: visible;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.our-words .right .circle {
+  position: absolute;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.479);
+  font-family: 'Poppins', sans-serif;
+  width: 162px;
+  height: 162px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.our-words .right .circle h1 {
+  font-weight: 900;
+  font-size: 36px;
+  padding-bottom: 8px;
+}
+
+.our-words .right .circle p {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.our-words .right .one {
+  left: 100px;
+  top: -60px;
+  background-color: #E3954C;
+}
+
+.our-words .right .two {
+  left: 300px;
+  top: -20px;
+  background-color: #3C4D5B;
+}
+
+.our-words .right .three {
+  background-color: #463C29;
+  height: 200px;
+  width: 200px;
+  left: 100px;
+  top: 120px;
+}
+/*# sourceMappingURL=style.css.map */
